@@ -1,0 +1,513 @@
+<!doctype html>
+
+<html>
+  <head>
+    <title>Gates & Fences</title>
+    <link rel="stylesheet" href="index.css">
+
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Overpass Mono">
+          <link rel="stylesheet"
+                href="https://fonts.googleapis.com/css?family=Overpass">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <!-- TODO: add additional links here! e.g. fonts, icons, more stylesheets, etc. -->
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+  </head>
+
+
+
+
+
+  <style>
+    .price{
+      color:white;
+    }
+  .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+      background-color: #69936D !important;
+      color: black !important;
+    }
+    .breadcrumb{background-color: white!important;}
+
+    .desktop {
+      display: block;
+    }
+    .mobile {
+      display: none;
+    }
+
+    @media screen  and (max-width:375px){
+      .mobile {
+        display: block;
+      }
+      .desktop {
+        display: none;
+      }
+      .head-img {
+        height: 5rem;
+      }
+    }
+
+    
+ </style>
+
+
+
+
+
+
+
+  <body style="font-family: Overpass Mono;">
+    <header>
+	<div class="container-fluid" style="background-color: #053C0A;">
+      <div class="d-flex justify-content-center">
+        <div class="mr-4 align-self-center">
+          <img src="heading2.png" class="head-img img-fluid" alt="Responsive image">
+        </div>
+        <div class="mr-4 ml-mr-4 align-self-center">
+         <p class="text-white text-center" style="font-family: Overpass; font-size:3rem; font-weight: SemiBold">GATES AND FENCES</p>
+        </div>
+        <div class="ml-4 align-self-center">
+          <img src="heading2.png"  class="head-img img-fluid" alt="Responsive image">
+        </div>
+      </div>
+	  </div>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
+
+
+
+        <div class="container">
+          <div class="row">
+    
+          <div class="col">
+          <div class="dropdown">
+            
+        <button class="btn btn-primary " type="button" id="menu1" data-toggle="dropdown">Gates</button>
+
+              <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                <u>Driveway</u><br>
+                <li role="presentation">
+                <a href="#"> Modern</a>
+                <a href="#"> Custom</a>
+                <a href="#"> Privacy</a>
+                </li>
+          <u>Garden</u><br>
+          <li role="presentation">
+          <a href="#"> Modern</a>
+          <a href="#"> Privacy</a>
+        </li>
+        </ul>
+            </div>
+          </div>
+    
+    
+          <div class="col">
+          <div class="dropdown">
+             <button class="btn btn-primary " type="button" id="menu1" data-toggle="dropdown">Fences</button>
+
+              <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                
+                <u>Fencing</u><br>
+                <li role="presentation">
+                <a href="#"> Fencing 2</a>
+                </li>
+          
+              </ul>
+            </div>
+          </div>
+    
+    
+           <div class="col">
+          <div class="dropdown">
+            <button class="btn btn-primary " type="button" id="menu1" data-toggle="dropdown">Railings</button>
+
+              <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                
+                <u>Railings</u><br>
+                <li role="presentation">
+                <a href="#"> Modern Balcony</a>
+                </li>
+
+                
+              </ul>
+            </div>
+          </div>
+    
+          
+          <div class="col">
+            <div class="dropdown">
+              <button class="btn btn-primary " type="button" id="menu1" data-toggle="dropdown">Operators</button>
+  
+                <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                  
+                <li role="presentation">
+                  
+                  <a href="#"> Ramset</a>
+                  <a href="#"> FAAC</a>
+                  <a href="#"> Apollo</a>
+                  <a href="#"> BFT </a>
+                  <a href="#"> Power Master </a>
+                  <a href="#"> Liftmaster </a>
+                  <a href="#"> Elite </a>
+                  <a href="#"> Doorking </a>
+                  <a href="#"> OSCO </a>
+                  <a href="#"> Allstar </a>
+                  <a href="#"> Viking </a>
+                  <a href="#"> Eagle </a>
+                  <a href="#"> SEA </a>
+                  <a href="#"> Hysecurity </a></ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            
+           <div class="col">
+            <div class="dropdown">
+              <button class="btn btn-primary " type="button" id="menu1" data-toggle="dropdown">Remote Controls</button>
+  
+                <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                
+                  <li role="presentation">
+                    
+                      <a href="#"> Multi-Code</a>
+                        <a href="#"> Transmitter-Solutions</a>
+                          <a href="#"> Linear</a>
+                            <a href="#"> Liftmaster </a>
+                              <a href="#"> Doorking </a>
+                                <a href="#"> Keystone - Heddolf </a>
+                                  <a href="#"> BFT - SEA - FAAC </a>
+                                    <a href="#"> Long Range </a></ul>
+                    </li>  
+                
+              </div>
+            </div>
+    
+          </div>
+          </div>
+
+
+
+
+      </div>
+    </nav>
+
+
+
+    <nav aria-label="breadcrumb" style="margin-left:20vw;margin-top:0; font-size: 2rem;">
+	<div class="d-flex justify-content-start">
+      <ol class="breadcrumb" style="font-family: Overpass Mono; font-size:1.5rem; font-weight: Regular">
+        <li class="breadcrumb-item"><a href="#">Gates</a></li>
+        <li class="breadcrumb-item"><a href="#">Garden Gates</a></li>
+		 <li class="breadcrumb-item active" aria-current="page">Modern Garden Gates</li>
+      </ol>
+    </nav>
+
+    <div class="desktop">
+    <div class="d-flex justify-content-center">
+      <div class="ml-4 w-25 align-self-center" style="font-family: Overpass Mono; font-size:2.5rem; font-weight: Bold; color:#053C0A">
+        
+        Click <a href="url"> here </a>for custom gate designs.
+      </div>
+      <div class="mr-2 ml-2 align-self-center flex-grow-3 w-50">
+
+        <img src="gatey.png" class="img-fluid" alt="Responsive image" style="height:450px; width: 700px">
+      </div>
+      <div class="ml-4 w-25 align-self-center" style="font-family: Overpass Mono; font-size:2.5rem; font-weight: Bold; color:#053C0A">
+        <div>
+          Scroll down to see our work on Disney World's American Idol set.
+      </div>
+      </div>
+    </div>
+  </div>
+
+    <div class="mobile">
+      <div class="ml-4  align-self-center" style="font-family: Overpass Mono; font-size:2.5rem; font-weight: Bold; color:#053C0A">
+        
+        Click <a href="url"> here </a>for custom gate designs.
+      </div>
+      <div class="mr-2 ml-2 align-self-center flex-grow-3 ">
+
+        <img src="gatey.png" class="img-fluid" alt="Responsive image" style="height:450px; width: 700px">
+      </div>
+      <div class="ml-4 mb-5 align-self-center" style="font-family: Overpass Mono; font-size:2.5rem; font-weight: Bold; color:#053C0A">
+        <div>
+          Scroll down to see our work on Disney World's American Idol set.
+      </div>
+      </div>
+    </div>
+
+    <div class="d-flex justify-content-center">
+
+      <div class="align-self-center text-center" style="margin-left: 10vw; margin-right:10vw;font-family: Overpass Mono; font-size:2.5rem; font-weight: Bold; color:#053C0A">
+	  Click on the images below to read about the design benefit and see the starting price.
+      </div>
+
+    </div>
+
+     <p> </p>
+
+   <div class="container">
+                        <div class="row">
+
+                        <div class="col col-lg-4 col-sm-2 col-md-6">
+                        <div class="dropdown">
+                            <button class="btn btn-default " type="button" id="menu1" data-toggle="dropdown">
+                            <figure>
+                            <img src="img1.jpg" style="height:350px; width: 300px">
+                        <figcaption>MODERN SQUARE </figcaption>
+                        </figure>
+                            </button>
+                            <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                              <li role="presentation"><a role="menuitem" tabindex="-1" href="#" style="background-color: #F0FCF1">
+                        <ul>
+                        <li>Beauty</li>
+                  <li>Virtually Unbreakable </li>
+                  <li>Excellent Weather Resistance </li>
+                  <li>Privacy and Security </li>
+                  <li>Low Maintenance </li> </ul>
+                        </a></li>
+                              <li role="presentation"><a role="menuitem" tabindex="-1" href="#" style="background-color:#545353; color:white"> Starting Price: $ 1,188.00</a></li>
+                              
+                              <li role="presentation" class="divider"></li>
+                              <li role="presentation"><a role="menuitem" tabindex="-1" href="#" style="background-color:#ADCCB0">Click here to know more</a></li>
+                            </ul>
+                          </div>
+                        </div>
+
+
+                        <div class="col col-lg-4 col-sm-2 col-md-6">
+                        <div class="dropdown">
+                            <button class="btn btn-default " type="button" id="menu1" data-toggle="dropdown">
+                            <figure>
+                            <img src="img2.jpg" style="height:350px; width: 300px">
+                        <figcaption>GEM STONE </figcaption>
+                        </figure></button>
+                            <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                              <li role="presentation"><a role="menuitem" tabindex="-1" href="#" style="background-color: #F0FCF1">
+                        <ul>
+                        <li>Beauty</li>
+                  <li>Virtually Unbreakable </li>
+                  <li>Excellent Weather Resistance </li>
+                  <li>Privacy and Security </li>
+                  <li>Low Maintenance </li> </ul>
+                        </a></li>
+                              <li role="presentation"><a role="menuitem" tabindex="-1" href="#" style="background-color:#545353; color:white"> Starting Price: $ 1,188.00</a></li>
+                              
+                              <li role="presentation" class="divider"></li>
+                              <li role="presentation"><a role="menuitem" tabindex="-1" href="#" style="background-color:#ADCCB0">Click here to know more</a></li>
+                            </ul>
+                          </div>
+                        </div>
+
+
+                        <div class="col col-lg-4 col-sm-2 col-md-6">
+                        <div class="dropdown">
+                            <button class="btn btn-default " type="button" id="menu1" data-toggle="dropdown">
+                        <figure>
+                            <img src="img3.jpg" style="height:350px; width: 300px">
+                        <figcaption>MORNING ROSE</figcaption>
+                        </figure>
+                            </button>
+                            <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                              <li role="presentation"><a role="menuitem" tabindex="-1" href="#" style="background-color: #F0FCF1">
+                        <ul>
+                        <li>Beauty</li>
+                  <li>Virtually Unbreakable </li>
+                  <li>Excellent Weather Resistance </li>
+                  <li>Privacy and Security </li>
+                  <li>Low Maintenance </li> </ul>
+                        </a></li>
+                              <li role="presentation"><a role="menuitem" tabindex="-1" href="#" style="background-color:#545353; color:white"> Starting Price: $ 1,188.00</a></li>
+                              
+                              <li role="presentation" class="divider"></li>
+                              <li role="presentation"><a role="menuitem" tabindex="-1" href="#" style="background-color:#ADCCB0">Click here to know more</a></li>
+                            </ul>
+                          </div>
+                        </div>
+
+
+                  </div>
+	  
+              <div class="row">
+
+                <div class="col col-lg-4 col-sm-2 col-md-6">
+                <div class="dropdown">
+                    <button class="btn btn-default " type="button" id="menu1" data-toggle="dropdown">
+                    <figure>
+                    <img src="img4.jpg" style="height:350px; width: 300px">
+                <figcaption>WAVE OF ELEGANCE </figcaption>
+                </figure>
+                    </button>
+                    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                      <li role="presentation"><a role="menuitem" tabindex="-1" href="#" style="background-color: #F0FCF1">
+                <ul>
+                <li>Beauty</li>
+          <li>Virtually Unbreakable </li>
+          <li>Excellent Weather Resistance </li>
+          <li>Privacy and Security </li>
+          <li>Low Maintenance </li> </ul>
+                </a></li>
+                      <li role="presentation"><a role="menuitem" tabindex="-1" href="#" style="background-color:#545353; color:white"> Starting Price: $ 1,188.00</a></li>
+                      
+                      <li role="presentation" class="divider"></li>
+                      <li role="presentation"><a role="menuitem" tabindex="-1" href="#" style="background-color:#ADCCB0">Click here to know more</a></li>
+                    </ul>
+                  </div>
+                </div>
+
+
+                <div class="col col-lg-4 col-sm-2 col-md-6">
+                <div class="dropdown">
+                    <button class="btn btn-default " type="button" id="menu1" data-toggle="dropdown">
+                    <figure>
+                    <img src="img5.jpg" style="height:350px; width: 300px">
+                <figcaption>IN THE CIRCLE </figcaption>
+                </figure></button>
+                    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                      <li role="presentation"><a role="menuitem" tabindex="-1" href="#" style="background-color: #F0FCF1">
+                <ul>
+                <li>Beauty</li>
+          <li>Virtually Unbreakable </li>
+          <li>Excellent Weather Resistance </li>
+          <li>Privacy and Security </li>
+          <li>Low Maintenance </li> </ul>
+                </a></li>
+                      <li role="presentation"><a role="menuitem" tabindex="-1" href="#" style="background-color:#545353; color:white"> Starting Price: $ 1,188.00</a></li>
+                      
+                      <li role="presentation" class="divider"></li>
+                      <li role="presentation"><a role="menuitem" tabindex="-1" href="#" style="background-color:#ADCCB0">Click here to know more</a></li>
+                    </ul>
+                  </div>
+                </div>
+
+
+                <div class="col col-lg-4 col-sm-2 col-md-6">
+                <div class="dropdown">
+                    <button class="btn btn-default " type="button" id="menu1" data-toggle="dropdown">
+                <figure>
+                    <img src="img6.jpg" style="height:350px; width: 300px">
+                <figcaption>SWEET PEA</figcaption>
+                </figure>
+                    </button>
+                    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                      <li role="presentation"><a role="menuitem" tabindex="-1" href="#" style="background-color: #F0FCF1">
+                <ul>
+                <li>Beauty</li>
+          <li>Virtually Unbreakable </li>
+          <li>Excellent Weather Resistance </li>
+          <li>Privacy and Security </li>
+          <li>Low Maintenance </li> </ul>
+                </a></li>
+                      <li role="presentation"><a role="menuitem" tabindex="-1" href="#" style="background-color:#545353; color:white"> Starting Price: $ 1,188.00</a></li>
+                      
+                      <li role="presentation" class="divider"></li>
+                      <li role="presentation"><a role="menuitem" tabindex="-1" href="#" style="background-color:#ADCCB0">Click here to know more</a></li>
+                    </ul>
+                  </div>
+                </div>
+
+
+                </div>
+	  
+                  <div class="row">
+
+                <div class="col col-lg-4 col-sm-2 col-md-6">
+                <div class="dropdown">
+                    <button class="btn btn-default " type="button" id="menu1" data-toggle="dropdown">
+                    <figure>
+                    <img src="img7.jpg" style="height:350px; width: 300px">
+                <figcaption>MODERN ARROW </figcaption>
+                </figure>
+                    </button>
+                    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                      <li role="presentation"><a role="menuitem" tabindex="-1" href="#" style="background-color: #F0FCF1">
+                <ul>
+                <li>Beauty</li>
+          <li>Virtually Unbreakable </li>
+          <li>Excellent Weather Resistance </li>
+          <li>Privacy and Security </li>
+          <li>Low Maintenance </li> </ul>
+                </a></li>
+                      <li role="presentation"><a role="menuitem" tabindex="-1" href="#" style="background-color:#545353; color:white"> Starting Price: $ 1,188.00</a></li>
+                      
+                      <li role="presentation" class="divider"></li>
+                      <li role="presentation"><a role="menuitem" tabindex="-1" href="#" style="background-color:#ADCCB0">Click here to know more</a></li>
+                    </ul>
+                  </div>
+                </div>
+
+
+                <div class="col col-lg-4 col-sm-2 col-md-6">
+                <div class="dropdown">
+                    <button class="btn btn-default " type="button" id="menu1" data-toggle="dropdown">
+                    <figure>
+                    <img src="img9.jpg" style="height:350px; width: 300px">
+                <figcaption>MODERN SET </figcaption>
+                </figure></button>
+                    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                      <li role="presentation"><a role="menuitem" tabindex="-1" href="#" style="background-color: #F0FCF1">
+                <ul>
+                <li>Beauty</li>
+          <li>Virtually Unbreakable </li>
+          <li>Excellent Weather Resistance </li>
+          <li>Privacy and Security </li>
+          <li>Low Maintenance </li> </ul>
+                </a></li>
+                      <li role="presentation"><a role="menuitem" tabindex="-1" href="#" style="background-color:#545353; color:white"> Starting Price: $ 1,188.00</a></li>
+                      
+                      <li role="presentation" class="divider"></li>
+                      <li role="presentation"><a role="menuitem" tabindex="-1" href="#" style="background-color:#ADCCB0">Click here to know more</a></li>
+                    </ul>
+                  </div>
+                    </div>
+
+
+                    </div>
+    <div class="container">
+      <p></p> <br>
+      <p style="font-family: Overpass Mono; font-size:3rem; font-weight: Bold">Disney World Orlando, FL - American Idol Set</p>
+                  
+        <div class="row">
+          <img src="disney1.jpg" style="max-height:500px; width: 90vw">
+        </div>
+        <p></p> <br>
+                  
+        <div class="row">
+          <img src="disney2.png" style="max-height:500px; width: 90vw">
+        </div> <p></p>
+                  
+        <div class="row">
+          <img src="disney3.png" style="max-height:500px; width: 90vw">
+        </div> <br>
+    </div> 
+   </div>
+      <footer>
+        <div class="container-fluid" style="background-color: #053C0A;">
+            <div class="d-flex justify-content-center">
+              <div class="align-self-center">
+               <p class="text-center" style="font-family: Overpass Mono; font-size:2rem; font-weight: SemiBold;color:#0174DF"><a href ="url"> About Us  </a> | <a href ="url"> Contact Us </a> | <a href ="url"> Our Policies  </a> | <a href ="url"> FAQ  </a> | <a href ="url"> Manufactures </a> | <a href ="url"> Links </a></p>
+                
+            <p style="font-family: Overpass Mono; font-size:1.5rem; font-weight: SemiBold;color:white"> Copyright Protected 2004-2008 - L. A. Ornamental & Rack Corp.  All rights reserved. No part of this site can be
+      reproduced in any form or by any means, electronic, mechanical, photocopying, or otherwise without prior written
+      consent of L. A. Ornamental & Rack Corp.
+      3708 NW 82nd Street  Miami  Florida  33147, Office: 305-696-0419  Fax: 305-696-0461 E-Mail:<a href="url"> LAOrnamental@Aol.com</a></p>
+          </div>
+          </div>
+          
+          </div>
+        </footer>
+
+  </body>
+</html>
