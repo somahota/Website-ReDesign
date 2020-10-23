@@ -9,6 +9,166 @@
   </head>
 
   <body>
-    <!-- TODO: put your HTML code here! -->
+    <style>
+/* Style the body */
+body {
+  font-family: Arial;
+  margin: 2%;
+}
+
+/* Header/Logo Title */
+.header {
+  padding: 20px;
+  text-align: center-right;
+  background: #424242;
+  color: white;
+  font-size: 20px;
+}
+
+/* Page Content */
+.content {padding:10px;}
+
+.content {
+  font-family: Verdana;
+  margin-left: 10%;
+}
+.row {
+  font-family: Cambria;
+  margin-left: 10%;
+}
+.marginauto {
+  
+  display: block;
+  margin-left: 90px;
+  margin-right: auto;
+  border: 5px solid #555;
+
+}
+
+.problems{
+   font-family: Cambria;
+}
+
+.lofi {padding:10px;}
+
+.lofi {
+  font-family: Verdana;
+  margin-left: 10%;
+}
+
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Responsive Re-Design</h1>
+  <p>Design: GatesNFences.com</p>
+  <h3> A "responsive redesign" focussed on cleaning and revamping the gatesnfences website to improve user usability. 
+</div>
+
+<div class="content">
+  <h1>Introduction</h1>
+  <p> <img class="marginauto" src="ss.png" width="1000" height="620" alt="Website Summary"> </p>
+  <p> I have chosen the <a href="http://www.gatesnfences.com/Modern-Garden-Gates.html">gatesnfences.com</a> website. This is a site for users to buy different types of gates and/or fences for their needs. This site has a large range of items available, however, there are some critical issues with the website design and my aim is to redesign the website fixing those issues.</p>
+  <h2>Part 1: Identifying Usability Problems</h2>
+  <p> I have conducted accessibility-checking using the WAVE service tool </p>
+  <p> <img class="marginauto" src="summary.png" width="250" height="400" alt="WAVE summary"> </p>
+  <p> As we can see from the summary image, there are many problems associated with this site. From this result, I have chosen to focus on the the Contrast Errors. </p>
+  <p> Additionally, there are a few other problems that I can see with the design layout of the website and the website content.
+
+<ul type="square">
+<strong><li> Contrast </li></strong>
+<table class ="problems" style="background-color:#D8D8D8; width="500" border="1" cellpadding="5">
+
+<tr>
+
+<td align="center" valign="center">
+<img src="contrast1.png" width="500" height="100" alt="Contrast" />
+<br />
+The bright red colored title in the green background is difficult to read.
+</td>
+
+<td align="center" valign="center">
+<img src="contrast2.png" width="500" height="200" alt="Contrast" />
+<br />
+The gray colored background with the blue and red text is difficult to read.
+</td>
+</tr>
+<tr>
+<td align="center" valign="center">
+<img src="contrast3.png" width="600" height="200" alt="Contrast" />
+<br />
+The bright pink marble colored background with red colored text is very difficult to read.
+</td>
+<td align="center" valign="center">
+<img src="contrast4.png" width="150" height="250" alt="Contrast" />
+<br />
+The bright pink marble colored background with red colored text and red colored buttons is very difficult to understand .
+</td>
+</tr>
+</table> 
+<p></p>
+<strong><li> Website Layout </li></strong>
+<table class ="problems" style="background-color:#D8D8D8; width="500" border="1" cellpadding="5">
+
+<tr>
+
+<td align="center" valign="center">
+<img src="contrast1.png" width="500" height="100" alt="Contrast" />
+<br />
+The address part should not be located in the header. Also, adding a text on the header urging users to scroll down the page to find their work on Disney World looks inappropriately placed.
+</td>
+
+<td align="center" valign="center">
+<img src="layout1.png" width="300" height="250" alt="Contrast" />
+<br />
+The layout of the buttons are vertical and the other tabs are horizontal. So there is an inconsistency with the way they are laid out. 
+</td>
+
+<td align="center" valign="center">
+<img src="contrast4.png" width="150" height="200" alt="Contrast" />
+<br />
+The categories of the Gates, Fences, and the Operators are not classified together in an orderly manner. They are all displayed vertically one below the other. As a user, it is very difficult for me to quickly find what I want and navigate around.
+</td>
+
+</table> 
+
+<strong><li> Website Content </li></strong>
+<table class ="problems" style="background-color:#D8D8D8; width="500" border="1" cellpadding="5">
+<tr>
+
+<td align="center" valign="center">
+<img src="contrast2.png" width="800" height="300" alt="Text Block" />
+<p> </p>
+<br/>
+This is a very big block of text. As a user, I might not only find it overwhelming to read such a huge block of text but also feel confused as to where to begin from.
+</td>
+</tr>
+</table> 
+
+<p> Overall, this website does not seem user friendly in terms of accessibility and usability. The user will feel overwhelmed and confused with the confusing layout of tabs and buttons thus causing problems with learnability. Additionally, the color choices add on to the confusion by decreasing readability.
+</div>
+<h2>Part 2: Visual ReDesign </h2>
+<div class ="lofi">
+<h3> Lo-Fidelity prototype </h3>
+<p> I have built the wireframes on 3 different device views (Dekstop, Tablet, and Phone). I have addressed the layout of the website redesign that would solve the usability challenges of the original website.</p>
+<iframe class="marginauto" src="https://drive.google.com/file/d/1tq4DGveNH-tDl0ao2MZTB0bfctaE1EWY/preview" width="640" height="480" align = "center-right"></iframe>
+</div>
+<div class ="lofi">
+<h2> High-Fidelity prototype </h2>
+<p> </p>
+
+<iframe class="marginauto" src="https://drive.google.com/file/d/1iVIAwWxi5D3xda2nF0DdLlLxSIK0qGf2/preview" width="640" height="480" align = "center-right"></iframe>
+</div>
+<div class="lofi">
+<h3> Hi-Fidelity Figma Prototype</h3>
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="1200" height="800" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FG9nJdvwm7pzfCMx3gko4ng%2FDesktop%3Fnode-id%3D2%253A0%26viewport%3D1480%252C397%252C0.699999988079071%26scaling%3Dmin-zoom" allowfullscreen></iframe>
+</div>
+
+<div class = "lofi">
+<h3> Visual Design Style Guide </h3>
+<img class="marginauto" src = "vsg.png" width="1250" height="500" alt="Text Block" />
+
+
   </body>
 </html>
